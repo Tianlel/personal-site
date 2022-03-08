@@ -32,6 +32,26 @@ const pages = [
     heading: 'Projects',
     component: Projects,
   },
+  {
+    route: '/resume',
+    heading: 'Resume',
+    component: Resume,
+  },
+  {
+    route: '/qupcakes',
+    heading: 'Qupcakes',
+    component: Resume,
+  },
+  {
+    route: '/bouncing',
+    heading: 'Bouncing Band+',
+    component: Resume,
+  },
+  {
+    route: '/robot',
+    heading: 'Tic-Tac-Toe Robot',
+    component: Resume,
+  },
 ];
 
 // Adds router to Page context and allows us to navigate to the

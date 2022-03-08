@@ -1,3 +1,4 @@
+// Topbar options
 const routes = [
   {
     index: true,
