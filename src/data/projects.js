@@ -3,7 +3,7 @@ const data = [
   {
     title: 'Qupcakes',
     subtitle: 'Quander world mini-game',
-    link: '/qupcakes',
+    link: '/personal-site/qupcakes',
     image: '/images/projects/qupcakesscene.jpg',
     date: '2022',
     desc:
@@ -15,7 +15,7 @@ const data = [
   {
     title: 'Bouncing Band+',
     subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: '/bouncing',
+    link: '/personal-site/bouncing',
     image: '/images/projects/musicbox.jpg',
     date: '2021',
     desc:
@@ -25,7 +25,7 @@ const data = [
   },
   {
     title: 'Tic-Tac-Toe Robot',
-    link: '/robot',
+    link: '/personal-site/robot',
     subtitle: 'A convolutional neural network to classify cats! (and dogs)',
     image: '/images/projects/tictactoerobot.jpg',
     date: '2021',
