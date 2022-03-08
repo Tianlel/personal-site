@@ -22,18 +22,28 @@ const Qupcakes = () => (
           </div>
         </div>
       </header>
-      <img
-        src={`${process.env.PUBLIC_URL}${'/images/projects/red_max_blue_random_10x.gif'}`}
-        alt="trained red player vs random blue player"
-        width="800"
-        height="500"
-      />
-      <img
-        src={`${process.env.PUBLIC_URL}${'/images/projects/red_max_blue_min_20x.gif'}`}
-        alt="trained red player vs random blue player"
-        width="800"
-        height="500"
-      />
+      <p>This was a project that combined robot navigation and
+        reinforcement learning. A single TurtleBot3 was implemented to execute
+        for both players.
+      </p>
+      <p>Game play demo:
+      </p>
+      <li>Trained red player vs random blue player
+        <img
+          src={`${process.env.PUBLIC_URL}${'/images/projects/red_max_blue_random_10x.gif'}`}
+          alt="trained red player vs random blue player"
+          width="800"
+          height="500"
+        />
+      </li>
+      <li>Trained red player vs trained blue player
+        <img
+          src={`${process.env.PUBLIC_URL}${'/images/projects/red_max_blue_min_20x.gif'}`}
+          alt="trained red player vs trained blue player"
+          width="800"
+          height="500"
+        />
+      </li>
     </article>
   </Main>
 );
